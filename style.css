@@ -1,0 +1,47 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --cor1: #d9d9d9;
+    --cor2: #F2E8D5;
+    --cor3: #C2A659;
+    --cor4: #333333;
+    --cor5: #1E3D32;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.258);
+}
+main {
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.656);
+    background-color: white;
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 0px 0px 5px rgba(128, 128, 128, 0.36);
+}
+
+p {
+    text-align: justify;
+    padding: 0px 15px 10px 15px;
+    text-indent: 2em;
+}
+
+input {
+    margin-left: 15px;
+    width: 200px;
+}
+
+button {
+    width: 100px;
+}
+
+p#vida {
+    text-indent: 0;
+}

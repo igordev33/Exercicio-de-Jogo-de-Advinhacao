@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Advinhação</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!--
+    Crie um arquivo HTML com a seguinte estrutura:
+    Um título para o jogo (ex: "Jogo de Adivinhação").
+    Uma mensagem inicial explicando como o jogo funciona.
+    Um campo de input para o jogador inserir seu palpite.
+    Um botão com o texto "Chutar".
+    Uma tag <p> para exibir as mensagens do jogo (dicas, resultado, etc.).
+    Uma tag <p> para exibir o número de tentativas restantes. -->    
+    <main>
+        <h1>Jogo de Adivinhação</h1>
+        <p>Tente adivinhar o número secreto entre 1 e 100! A cada tentativa, você receberá uma dica informando se o número digitado é maior ou menor que o número correto. Você vence se acertar o número dentro do limite de tentativas. Boa sorte!</p>
+        <input type="number" placeholder="Digite aqui o seu palpite..." id="palpite">
+        <button onclick="chutar()">Chutar</button>
+
+        <p id="vida"></p>
+        <p id="resultado"></p>
+    </main>
+</body>
+</html>
